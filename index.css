@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header-contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+.header-info {
+  display: flex;
+}
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  color: white;
+}
+.header-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+
+a:hover {
+  cursor: pointer;
+  background-color: black;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.body-content {
+  background-image: url(./img/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+
+}
+.body-content h1 {
+  font-size: 45px;
+  gap: 15px;
+}
+.respon {
+  color: yellow;
+}
+.bg-content {
+  /* position: relative;
+  transform: translateY(70%); */
+  padding-left: 100px;
+  padding-top: 30vh;
+  padding-bottom: 50px;
+}
+.bg-content p {
+  width: 40%;
+  padding: 20px 0 20px;
+}
+.btn-1 button {
+  padding: 12px 35px;
+  border: none;
+  background-color: white;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+.btn-2 button {
+  background-color: yellow;
+  color: rgb(212, 204, 204);
+}
+.btn-1:hover button {
+  cursor: pointer;
+}
+body {
+  background-color: #262728;
+}
+h2 {
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.our-serv {
+  display: flex;
+  padding: 20px 100px;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.serv-list img {
+  width: 20%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.serv-list {
+  width: 31%;
+  text-align: center;
+  background-color: white;
+  border: 1px solid white;
+}
+.serv-list button {
+  background-color: yellow;
+  padding: 10px 25px;
+  padding: 10px 24px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: none;
+  color: rgb(129, 129, 129);
+}
+.serv-list h4 {
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+footer {
+  background-color: black;
+  color: white;
+  height: 40vh;
+}
+.main-footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 100px;
+}
+.email {
+  display: flex;
+  flex-direction: column;
+}
+.footer-info {
+  width: 22%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.email input {
+  border-radius: 20px;
+  padding: 10px 20px;
+  border: none;
+}
+.email button {
+  padding: 10px 25px;
+  border-radius: 20px;
+  background-color: yellow;
+  color: rgb(236, 231, 231);
+}
+.no-coppy {
+  text-align: center;
+  font-size: 14px;
+  color: rgb(150, 146, 146);
+}
+@media screen and (max-width:768px){
+    .bg-content {
+        width: 100%;
+        justify-content: center;
+    }
+    .header-nav ul{
+      display: flex;
+      flex-direction: column;
+    }
+    .our-serv{
+      flex-direction: column;
+      width: 100%;
+      padding: 0;
+    }
+    .serv-list{
+      width: 100%;
+    }
+    .main-footer{
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+    }
+    .footer-info{
+      width: 100%;
+    }
+  }
